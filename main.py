@@ -14,7 +14,7 @@ def game():
 
     number = random.randint(1,100)
     isWon = False
-    for i in range(1, tries-1):
+    for i in range(1, tries+1):
         guess = int(input("Make a guess: "))
         if guess > number:
             print("Too high.\n Guess again.")
